@@ -327,3 +327,98 @@
   cursor: pointer;
   font-family: 'Georgia', serif;
 }
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+  /* HOME */
+  .Sports, .Quizz {
+    font-size: 38px;
+  }
+
+  .disclaimer {
+    font-size: 16px;
+  }
+
+  .input {
+    width: 280px;
+    font-size: 16px;
+  }
+
+  .start {
+    font-size: 16px;
+  }
+
+  .cric, .foot {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+
+  .credit {
+    font-size: 13px;
+  }
+
+  /* CRICKET QUIZ */
+  .qtext {
+    font-size: 22px;
+    padding: 0 15px;
+  }
+
+  .optbtn {
+    width: 90%;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nextbtn {
+    font-size: 18px;
+    width: 120px;
+  }
+
+  /* FOOTBALL QUIZ */
+  .qtextf {
+    font-size: 22px;
+    padding: 0 15px;
+  }
+
+  .optbtnf {
+    width: 90%;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nextbtnf {
+    font-size: 18px;
+    width: 120px;
+  }
+
+  /* RESULT */
+  .rsport {
+    font-size: 24px;
+  }
+
+  .rnum {
+    font-size: 42px;
+  }
+
+  .rbar {
+    width: 280px;
+  }
+
+  .rmsg {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .rplaybtn, .rhomebtn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .rbtns {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
